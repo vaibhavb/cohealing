@@ -22,7 +22,7 @@ html {
 
 .hero {
   background-image: url(https://picsum.photos/id/381/1920/1080);
-  background: linear-gradient(rgba(187, 128, 60, 0.65), rgba(196, 112, 56, 0.65)), rgba(243, 72, 4, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background: linear-gradient(rgba(255,134,115, 0.65), rgba(255,134,115, 0.65)), rgba(255,134,115, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -80,7 +80,7 @@ html {
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
-  border-bottom: 2px solid #1f2c6c;
+  border-bottom: 2px solid #FF8673;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
@@ -90,7 +90,7 @@ html {
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
   color: #1f2c6c;
   transition: all .2s ease-in-out;
-  border-bottom: 2px solid #1f2c6c;
+  border-bottom: 2px solid #FF8673;
 }
 
 .main-content {
@@ -120,9 +120,9 @@ html {
 }
 
 .main-content .section-dark.resume button {
-  border: 2px solid #43485c;
+  border: 2px solid #FF8673;
   background: white;
-  color: #43485c;
+  color: #FF8673;
   height: 50px;
   width: 250px;
   font-size: 1rem;
@@ -130,7 +130,7 @@ html {
 }
 
 .main-content .section-dark.resume .fa-download {
-  color: #ee6306;
+  color: #d46453;
 }
 
 .main-content .section-dark.my-work {
@@ -181,7 +181,7 @@ html {
 .main-content .section-light.about-me .right-image img {
   border-radius: 11px;
   margin: 20px;
-  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+  box-shadow: 0 5px 20px rgba(255,134,115, 0.3);
 }
 
 @media (max-width: 599px) {
@@ -211,7 +211,7 @@ html {
 
 .main-content .section-light.contact button {
   width: 100%;
-  background-color: #43485c;
+  background-color: #FF8673;
   color: white;
   height: 50px;
   font-size: 1.1rem;
@@ -227,7 +227,7 @@ html {
 
 .main-content .section-color.services {
   padding: 100px;
-  background-color: #43485c;
+  background-color: #d46453;
   color: white;
 }
 
@@ -242,7 +242,7 @@ html {
 }
 
 .main-content .section-title {
-  color: #43485c;
+  color: #494747;
   text-transform: uppercase;
   font-size: 1.8rem;
   letter-spacing: 2px;
@@ -256,7 +256,7 @@ html {
   height: 80px;
   line-height: 25px;
   text-align: center;
-  background: #1f2c6c;
+  background: #d46453;
   color: whitesmoke;
   padding-top: 2rem;
 }
@@ -276,7 +276,7 @@ html {
 }
 
 .fa-download {
-  color: #43485c;
+  color: #d46453;
 }
 
 #toTop {
@@ -289,7 +289,7 @@ html {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: rgba(31, 44, 108, 0.65);
+  background-color: rgba(255,134,115, 0.65);
   color: white;
   cursor: pointer;
   border-radius: 50%;
@@ -323,7 +323,7 @@ body.preloader-site {
 .preloader-wrapper {
   height: 100%;
   width: 100%;
-  background: #1f2c6c;
+  background: #FF8673;
   position: fixed;
   top: 0;
   left: 0;
