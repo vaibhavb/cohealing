@@ -226,7 +226,7 @@ html {
 }
 
 .main-content .section-color.services {
-  padding: 100px;
+  padding: 20px;
   background-color: #d46453;
   color: white;
 }
@@ -238,7 +238,7 @@ html {
 
 .main-content .section-color.services i {
   font-size: 3rem;
-  padding: 20px;
+  padding: 0px;
 }
 
 .main-content .section-title {
