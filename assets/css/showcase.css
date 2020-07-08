@@ -253,7 +253,7 @@ html {
   bottom: 0;
   width: 100vw;
   padding: 0;
-  height: 120px;
+  /*height: 80px;*/
   line-height: 25px;
   text-align: center;
   background: #d46453;
