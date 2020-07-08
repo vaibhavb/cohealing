@@ -22,7 +22,7 @@ html {
 
 .hero {
   background-image: url(https://picsum.photos/id/381/1920/1080);
-  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background: linear-gradient(rgba(187, 128, 60, 0.65), rgba(196, 112, 56, 0.65)), rgba(243, 72, 4, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -130,7 +130,7 @@ html {
 }
 
 .main-content .section-dark.resume .fa-download {
-  color: #1f2c6c;
+  color: #ee6306;
 }
 
 .main-content .section-dark.my-work {
@@ -340,4 +340,4 @@ body.preloader-site {
 }
 
 .white
-{color:ghostwhite}
+{color:ghostwhite}  

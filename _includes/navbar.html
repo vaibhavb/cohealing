@@ -1,24 +1,128 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="container is-fluid">
-      <div class="navbar-brand">
-          <a class="navbar-item" href="{{site.url}}{{site.baseurl}}">
-              <img src="{{site.url}}{{site.baseurl}}/assets/images/logo-title.png" alt="Do no harm">
-              <title class="navbar-item" href="{{site.url}}{{site.baseurl}}"></title>
-          </a>
-          <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
-              <span></span>
-              <span></span>
-              <span></span>
-          </a>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+        <div class="preloader">
+          <img src="img/preloader.gif" alt="" />
+        </div>
       </div>
-          <div class="navbar-menu" id="navMenu" >
-            <div class="navbar-end">
-              <a href="#home" class="navbar-item">Home</a>
-              <a href="#about" class="navbar-item">About</a>
-              <a href="#classes" class="navbar-item">Classes</a>
-              <a href="#coaches" class="navbar-item">Coaches</a>
-              <a href="#contact" class="navbar-item">Contact</a>
+      <!-- End Preloader-->
+      <!-- Begin Scroll Up Button -->
+  
+      <form action="#home">
+        <button id="toTop" title="Go to top">
+          <i class="fas fa-angle-up"></i>
+        </button>
+      </form>
+      <!-- End Scroll Up Button -->
+  
+      <!-- Begin Header -->
+      <div class="header-wrapper" id="home">
+        <!-- Begin Hero -->
+        <section class="hero is-large">
+          <!-- Begin Mobile Nav -->
+          <nav class="navbar is-transparent is-hidden-desktop">
+            <!-- Begin Burger Menu -->
+            <div class="navbar-brand">
+              <a class="navbar-item" href="{{site.url}}{{site.baseurl}}">
+                    <img src="{{site.url}}{{site.baseurl}}/assets/images/logo-title.png" alt="Do no harm">
+                    <title class="navbar-item" href="{{site.url}}{{site.baseurl}}"></title>
+              </a>
+              <div class="navbar-burger burger" data-target="mobile-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <!-- End Burger Menu -->
+            <div id="mobile-nav" class="navbar-menu">
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <a class="navbar-item" href="#home">
+                    Home
+                  </a>
+                </div>
+                <div class="navbar-item">
+                  <a class="navbar-item" href="#about">
+                    About
+                  </a>
+                </div>
+                <div class="navbar-item">
+                  <a class="navbar-item" href="#classes">
+                    Classes
+                  </a>
+                </div>
+                <div class="navbar-item">
+                  <a class="navbar-item" href="#coaches">
+                    Coaches
+                  </a>
+                </div>
+                <div class="navbar-item">
+                  <a class="navbar-item" href="#contact">
+                    Contact
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- End Mobile Nav -->
+          <!-- Begin Hero Content-->
+          <div class="hero-body">
+            <div class="container has-text-centered">
+              <h2 class="title">Cohealing</h2>
+              <h1 class="subtitle profession">A Meditation Community</h1>
+              <div>
+                              <!-- Noscript content for added SEO -->
+                              <noscript><a href="https://www.eventbrite.com/e/cohealing-meditation-community-tickets-112554110374" rel="noopener noreferrer" target="_blank"></noscript>
+                                <!-- You can customize this button any way you like -->
+                                <button id="eventbrite-widget-modal-trigger-112554110374" type="button" class="button is-medium is-primary is-signup">Sign-Up</button>
+                                <noscript></a>Buy Tickets on Eventbrite</noscript>
+                                
+                                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                                
+                                <script type="text/javascript">
+                                    var exampleCallback = function() {
+                                        console.log('Order complete!');
+                                    };
+                                
+                                    window.EBWidgets.createWidget({
+                                        widgetType: 'checkout',
+                                        eventId: '112554110374',
+                                        modal: true,
+                                        modalTriggerElementId: 'eventbrite-widget-modal-trigger-112554110374',
+                                        onOrderComplete: exampleCallback
+                                    });
+                                </script>
+                </div>
             </div>
           </div>
-    </div>
-  </nav>
+          <!-- End Hero Content-->
+          <!-- Begin Hero Menu -->
+          <div class="hero-foot ">
+            <div class="hero-foot--wrapper">
+              <div class="columns">
+                <div class="column is-12 hero-menu-desktop has-text-centered">
+                  <ul>
+                    <li class="is-active">
+                      <a href="#home">Home</a>
+                    </li>
+                    <li>
+                      <a href="#about">About</a>
+                    </li>
+                    <li>
+                      <a href="#classes">Classes</a>
+                    </li>
+                    <li>
+                      <a href="#coaches">Coaches</a>
+                    </li>
+                    <li>
+                      <a href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Hero Menu -->
+        </section>
+        <!-- End Hero -->
+      </div>
+      <!-- End Header -->
