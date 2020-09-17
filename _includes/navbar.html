@@ -96,7 +96,27 @@
                         onOrderComplete: exampleCallback
                     });
                 </script>
-            </div>
+                        <!-- Noscript content for added SEO -->
+            <noscript><a href="https://www.eventbrite.com/e/cohealing-retreat-embrace-yourself-in-troubledtimes-tickets-121642527073" rel="noopener noreferrer" target="_blank"></noscript>
+              <!-- You can customize this button any way you like -->
+              <button id="eventbrite-widget-modal-trigger-121642527073" type="button">Buy Tickets</button>
+              <noscript></a>Cohealing Retreat</noscript>
+              
+              <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+              
+              <script type="text/javascript">
+                  var exampleCallback = function() {
+                      console.log('Order complete!');
+                  };
+              
+                  window.EBWidgets.createWidget({
+                      widgetType: 'checkout',
+                      eventId: '121642527073',
+                      modal: true,
+                      modalTriggerElementId: 'eventbrite-widget-modal-trigger-121642527073',
+                      onOrderComplete: exampleCallback
+                  });
+              </script>
           </div>
 
           <!-- End Hero Content-->
